@@ -1,13 +1,13 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #121212; /* Черный фон */
-    color: #e0e0e0; /* Светлый текст */
+    background-color: #121212; 
+    color: #e0e0e0;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 900px; /* Широкая контейнер */
+    max-width: 900px; 
     margin: auto;
     padding: 20px;
 }
@@ -17,8 +17,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #1f1f1f; /* Темно-серый */
-    border-radius: 30px; /* Скругленные углы */
+    background: #1f1f1f;
+    border-radius: 30px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -28,66 +28,66 @@ body {
 
 .nav-wrapper {
     margin: 20px 0;
-    overflow-x: auto; /* Горизонтальный скроллинг */
-    white-space: nowrap; /* Запрет переноса строки */
+    overflow-x: auto;
+    white-space: nowrap; 
 }
 
 .nav-tabs {
-    display: inline-block; /* Для скроллинга */
+    display: inline-block;
     padding: 0;
     margin: 0;
     list-style-type: none;
-    background-color: #1f1f1f; /* Темно-серый */
-    border-radius: 30px; /* Скругленные углы */
+    background-color: #1f1f1f; 
+    border-radius: 30px; 
 }
 
 .nav-tabs li {
-    display: inline-block; /* Для горизонтального отображения */
+    display: inline-block; 
     padding: 12px 20px;
     cursor: pointer;
-    color: #ffffff; /* Белый текст */
+    color: #ffffff;
     margin: 5px;
-    border-radius: 30px; /* Скругленные углы */
+    border-radius: 30px; 
     transition: background 0.3s;
 }
 
 .nav-tabs li.active {
-    background-color: #FFD700; /* Золотой для выделения */
+    background-color: #FFD700;
 }
 
 .combo-section {
     margin-bottom: 20px;
-    background-color: #2b2b2b; /* Серый фон для секций */
-    border-radius: 30px; /* Скругленные углы */
+    background-color: #2b2b2b;
+    border-radius: 30px;
     padding: 20px;
 }
 
 h2 {
     margin: 0 0 15px;
-    color: #FFD700; /* Золотой заголовок */
+    color: #FFD700;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Адаптивная сетка */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 16px;
 }
 
 .card {
-    background: #3a3a3a; /* Серый фон для карточек */
-    border-radius: 30px; /* Скругленные углы */
+    background: #3a3a3a; 
+    border-radius: 30px; 
     padding: 10px;
     text-align: center;
-    transition: transform 0.3s; /* Плавный эффект при наведении */
+    transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.05); /* Увеличение карточки при наведении */
+    transform: scale(1.05);
 }
 
 .card img {
-    max-width: 100%; /* Ограничение ширины изображения */
-    border-radius: 30px; /* Скругленные углы изображения */
+    max-width: 100%;
+    border-radius: 30px; 
 }
 
 @keyframes gb-popup-flip-page {
@@ -102,17 +102,17 @@ h2 {
 }
 
 .modal.show {
-    display: block; /* Показываем модальное окно */
-    animation: gb-popup-flip-page 1s ease forwards; /* Применяем анимацию */
+    display: block;
+    animation: gb-popup-flip-page 1s ease forwards; 
 }
 
 .price {
     font-weight: bold;
-    color: #FFD700; /* Золотой цвет для цены */
+    color: #FFD700; 
 }
 
 .modal {
-    display: none; /* Скрыто по умолчанию */
+    display: none; 
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -120,24 +120,24 @@ h2 {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный черный фон */
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal-content {
-    background-color: #1f1f1f; /* Темно-серый фон модального окна */
-    margin: 15% auto; /* Центрирование */
+    background-color: #1f1f1f;
+    margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Ширина модального окна */
-    border-radius: 30px; /* Скругленные углы */
+    width: 80%; 
+    border-radius: 30px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .section-title {
-    text-align: center; /* Центрирование текста */
-    font-size: 24px; /* Размер шрифта для заголовка */
-    margin: 20px 0; /* Отступы сверху и снизу */
-    color: #fff; /* Белый цвет текста */
-    font-weight: bold; /* Жирный шрифт */
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #FFD700; 
+    font-weight: bold; 
 }
 
