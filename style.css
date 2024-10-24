@@ -132,3 +132,12 @@ h2 {
     border-radius: 30px; /* Скругленные углы */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
+
+.section-title {
+    text-align: center; /* Центрирование текста */
+    font-size: 24px; /* Размер шрифта для заголовка */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    color: #fff; /* Белый цвет текста */
+    font-weight: bold; /* Жирный шрифт */
+}
+
